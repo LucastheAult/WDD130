@@ -1,8 +1,18 @@
 body {
     background-color: lightblue;
 }
-a {
+.nav_link {
     padding: 10px;
-    color: black;
     font-size: 2em;
+    color: black;
+}
+img {
+    width: 300px;
+}
+
+#main_title {
+    font-size: 4
+}
+#sub_title {
+    color: red
 }
