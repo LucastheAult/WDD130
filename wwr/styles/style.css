@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+
+div {
+    max-width: 1600px;
+}
+
+#hero-box {
+    text-align: center;
+}
+
+#content {
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    color:#66CDAE;
+    text-decoration: none;
+}
+
+#hero-msg h1 {
+    text-align: center;
+}
+
+#hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #66CDAE;
+}
+
+body {
+    background-color: #66CDAE;
+    font-family: 'Walter Turncoat'
+}
+
+header {
+    background-color: #30314f;
+    color:#d9c2a3;
+}
+
+nav a:hover {
+    background-color: #04d36b;
+    color:white;
+}
+
+.home-title {
+    color:#66CDAE;
+}
+
+h4 {
+    color:#30314f;
+}
+
+.book, .join {
+    background-color: #66CDAE;
+    text-decoration: none;
+    color:#30314f;
+}
+
+.book:hover, .join:hover {
+    background-color: #02fe80;
+}
+
+.msg h2 {
+    color:#30314f;
+}
+
+.msg p {
+    color:#30314f;
+}
+
+.msg {
+    background-color: #66CDAE;
+}
+
+footer {
+    background-color: #66CDAE;
+    color:#30314f;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:#02fe80;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+}
+
+footer p {
+    font-size: 1.23em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
