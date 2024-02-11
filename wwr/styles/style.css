@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Imprima&family=Oswald:wght@700&family=Walter+Turncoat&display=swap');
+
 
 div {
     max-width: 1600px;
@@ -14,9 +15,10 @@ div {
 }
 
 nav a {
-    text-align: center;
     color:#66CDAE;
+    text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -37,12 +39,19 @@ main section {
 
 #background {
     height: 725px;
-    background-color: #66CDAE;
+    background-color: #30314f;
 }
 
 body {
     background-color: #66CDAE;
-    font-family: 'Walter Turncoat'
+    font-family: 'Dosis', 'Imprima', 'Oswald';
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    /* max-width: 960px;
+    padding: 4em;
+    text-align: center;
+    font-size: 22px; */
 }
 
 header {
@@ -56,7 +65,10 @@ nav a:hover {
 }
 
 .home-title {
-    color:#66CDAE;
+    color: #30314f;
+    font-family: 'Walter Turncoat', 'Oswald', 'Imprima';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -67,6 +79,10 @@ h4 {
     background-color: #66CDAE;
     text-decoration: none;
     color:#30314f;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -79,15 +95,21 @@ h4 {
 
 .msg p {
     color:#30314f;
+    font-size: 1.5em;
+    padding-bottom: 15px;
 }
 
 .msg {
     background-color: #66CDAE;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #66CDAE;
     color:#30314f;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -104,6 +126,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 footer p {
@@ -112,4 +135,28 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
