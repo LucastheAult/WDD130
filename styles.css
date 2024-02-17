@@ -29,6 +29,7 @@ nav {
 main {
     background-color: white;
     padding: 40px;
+    display: grid;
     
 }
 img {
@@ -36,7 +37,15 @@ img {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
+    box-shadow: 5px 5px 10px rgb(91, 91, 91);
+    transition: transform .5s;
 }
+
+img:hover {
+    opacity: .2;
+    transform: scale(1.1)
+}
+
 nav a {
     color: black;
 }
@@ -48,6 +57,7 @@ nav a {
 #main_title {
     font-size: 4;
     text-align: center;
+    
 }
 
 footer p, h3{
@@ -72,4 +82,10 @@ main p {
 }
 footer {
     padding: 20px;
+}
+
+@media screen and (max-width: 900px){
+    main {
+        display: block;
+    }
 }

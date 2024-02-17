@@ -1,0 +1,12 @@
+Justify: <------------->
+
+Align:  ^
+        |
+        |
+        v
+
+Content: Grid itself
+
+items: children of grid
+
+Self: One child
