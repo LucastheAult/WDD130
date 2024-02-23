@@ -1,3 +1,5 @@
+=======================================================================
+
 Justify: <------------->
 
 Align:  ^
@@ -10,3 +12,27 @@ Content: Grid itself
 items: children of grid
 
 Self: One child
+
+=======================================================================
+
+Remember, grids can be constructed either explicitly: you define 
+
+everything about the grid, column number and widths, row number and 
+
+heights, and where every item should be placed, or implicitly: you let 
+
+the browser make as many of the decisions as possible. Most grids are 
+
+a mix of both. All grids need to have some columns defined, but after 
+
+that, the browsers will implicitly create rows as needed.
+
+=======================================================================
+
+You may have been wondering how you are to know how big to make each 
+
+row? I'll let you in on a little secret: you don't have to know in 
+
+many cases. You can often let the browser figure it out!
+
+=======================================================================
