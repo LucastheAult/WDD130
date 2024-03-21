@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Roboto+Slab:wght@600&display=swap');
+
+/* HOME PAGE */
+body {
+    background-color: #FFF5D8;
+    font-family: 'Anta', 'Roboto Slab', 'Helvetica', 'Sans Serif';
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    text-align: center;
+}
+.home-title {
+    color: #317E35;
+    font-family: 'Anta', 'Roboto Slab', 'Helvetica', 'Sans Serif';
+    font-size: 2em;
+    margin: center;
+}
+
+h4{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#home-picture-box{
+    text-align: center;
+}
+
+#home-msg{
+    display: grid;
+    text-align: center;
+}
+
+.logo {
+    height: 30px;
+
+}
+
+#logo_link:hover {
+    
+    background-color: #FFF5D8;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color:#317E35;
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #5AE05F;
+    color:#317E35;
+}
+
+/* MAIN CHARACTER PAGE */
+.pikmin {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color:#FFF5D8;
+    color:#317E35;
+    margin: 50px;
+    padding: 30px;
+    align-items: center;
+    gap: 100px;
+    border: black solid 5px;
+    font-size: 1.2em ;
+}
+
+.pikmin-grid {
+    display: grid;
+}
+
+.olimar-img{
+    width: 100%;
+}
+
+.red-pikmin-img {
+    width: 100%;
+}
+
+.yellow-pikmin-img {
+    width: 100%;
+}
+
+.blue-pikmin-img {
+    width: 100%;
+}
