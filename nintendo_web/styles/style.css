@@ -55,7 +55,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #5AE05F;
+    background-color: #b4ad98;
     color:#317E35;
 }
 
@@ -90,5 +90,52 @@ nav a:hover {
 }
 
 .blue-pikmin-img {
+    width: 100%;
+}
+
+/* CREATURES PAGE */
+
+.creature {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color:#FFF5D8;
+    color:#317E35;
+    margin: 50px;
+    padding: 30px;
+    align-items: center;
+    gap: 100px;
+    border: black solid 5px;
+    font-size: 1.2em ;
+}
+
+.bulborb-img {
+    width: 100%;
+}
+
+.snagret-img {
+    width: 100%;
+}
+
+.fiery-blowhog-img {
+    width: 100%;
+}
+
+.wollwog-img {
+    width: 100%;
+}
+
+.beady-long-legs-img {
+    width: 100%;
+}
+
+.puffy-blowhog-img {
+    width: 100%;
+}
+
+.snitchbug-img {
+    width: 100%;
+}
+
+.bulblax-img {
     width: 100%;
 }
