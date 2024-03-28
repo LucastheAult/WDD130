@@ -63,7 +63,7 @@ nav a:hover {
 .pikmin {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    background-color:#FFF5D8;
+    background-color:white;
     color:#317E35;
     margin: 50px;
     padding: 30px;
@@ -83,6 +83,7 @@ nav a:hover {
 
 .red-pikmin-img {
     width: 100%;
+    
 }
 
 .yellow-pikmin-img {
@@ -98,7 +99,7 @@ nav a:hover {
 .creature {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    background-color:#FFF5D8;
+    background-color:white;
     color:#317E35;
     margin: 50px;
     padding: 30px;
